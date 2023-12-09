@@ -1,7 +1,8 @@
-![Descripción de la imagen](img/icono.jpg)
+![icono](img/icono.jpg)
 
 # Temporizador - DNP
 
+![icono](img/temporizador.jpg)
 Esta es una aplicación simple de temporizador desarrollada en JavaScript, HTML y CSS. La aplicación cuenta con las siguientes características:
 
 ## Características Principales
