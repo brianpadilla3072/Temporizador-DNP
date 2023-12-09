@@ -2,7 +2,6 @@
 
 # Temporizador - DNP
 
-![icono](img/Temporizador.jpg)
 Esta es una aplicación simple de temporizador desarrollada en JavaScript, HTML y CSS. La aplicación cuenta con las siguientes características:
 
 ## Características Principales
@@ -41,6 +40,9 @@ Esta es una aplicación simple de temporizador desarrollada en JavaScript, HTML 
 - La fuente sans-serif mejora la legibilidad del texto.
 
 ## Personalización
+![icono](img/home.jpeg)
+![icono](img/iniciado.jpeg)
+
 
 - Puedes personalizar el estilo y diseño modificando las reglas de estilo en el archivo CSS.
 - Ajusta los colores, las sombras y otras propiedades según tus preferencias.
