@@ -48,3 +48,5 @@ Esta es una aplicación simple de temporizador desarrollada en JavaScript, HTML 
 - Ajusta los colores, las sombras y otras propiedades según tus preferencias.
 
 Esperamos que esta aplicación simple de temporización sea útil para tus necesidades. Siéntete libre de modificar y adaptar el código según tus requerimientos específicos. ¡Disfruta usando el temporizador!
+##Descarga la aplicacion desarrollada con electron
+-https://drive.google.com/file/d/1xMHRKm3buIbF7c6RC65C_iA605DY7G0d/view
