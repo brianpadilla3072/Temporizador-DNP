@@ -1,4 +1,4 @@
-![icono](img/icono.jpg)
+![icono](img/icono.jpeg)
 
 # Temporizador - DNP
 
