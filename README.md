@@ -1,25 +1,21 @@
-Temporizador - DNP
+
+#Temporizador - DNP
 Esta es una aplicación simple de temporizador desarrollado en JavaScript, HTML y CSS. La aplicación cuenta con las sigilos características:
 
 Características Principales
 Temporizador Inicial :
-
 Se puede imaginar la cantidad de minutos muertos.
 Al hacer clic en el botón "Iniciar", comienza el temporizador.
 Detener Temporizador :
-
 Al hacer clic en el botón "Pausar", se detiene el temporizador.
 Se puede reiniciar el temporizador utilizando el botón "Restablecer".
 Recomendaciones de Tiempo :
-
 Botones predefinidos para establecer tiempos de 30, 15 y 5 minutos.
 Facilita la configuración rápida del temporizador.
 Visualización Clara :
-
 El tiempo restante se encuentra en un formato claro de minutos y segundos.
 Cuando el temporizador llega a cero, se muestra un mensaje indicando la finalización.
 Diseño simple:
-
 El diseño se ha simplificado para una experiencia de usuario clara.
 Se utiliza CSS para los estilos sin depender de Bootstrap.
 Uso
