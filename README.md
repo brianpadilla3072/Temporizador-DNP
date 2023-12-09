@@ -40,6 +40,7 @@ Esta es una aplicación simple de temporizador desarrollada en JavaScript, HTML 
 - La fuente sans-serif mejora la legibilidad del texto.
 
 ## Personalización
+![icono](img/presentacion.jpeg)
 ![icono](img/home.jpeg)
 ![icono](img/iniciado.jpeg)
 
