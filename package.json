@@ -1,0 +1,52 @@
+{
+  "name": "cronometrodnp",
+  "version": "1.0.0",
+  "description": "Una descripción de mi aplicación",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder",
+    "dist": "electron-builder",
+    "dist:windows": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "dist:all": "electron-builder --win --linux"
+  },
+  "author": {
+    "name": "by Brian Padilla and Cradel",
+    "email": "padillabrian830@gmail.com",
+    "url": "https://brianpadilla3072.github.io/cradel/"
+  },
+  "build": {
+    "appId": "com.cuenta.regresiva.dnp",
+    "productName": "Cronometro - DNP",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "./icon/favicon.ico",
+      "target": [
+        {
+          "target": "nsis", 
+          "arch": [
+            "x64"
+          ] 
+        }
+      ]
+    },
+    "linux": {
+      "icon": "./icon/favicon.png",
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ] 
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}

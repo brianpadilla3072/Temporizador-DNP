@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro - DNP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="control" id="panelControl">
+        <input class="btn imputTime" id="minutos" placeholder="Minutos" type="number" min="0" value="" >
+        <button class="btn" onclick="iniciarCuentaRegresiva()" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        ">Iniciar</button>
+        <button class="btn" onclick="pausarContinuarCuentaRegresiva()" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        " id="pausarContinuarBtn">Pausar</button>
+        <button class="btn" onclick="resetearInput()" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        ">Reset</button>
+    </section>
+    <section style="width: 100vw; height: 100vh; margin: auto; text-align: center;">
+        <div id="cuenta-regresiva">00:00</div>
+    </section>
+    <section class="control" id="panelControlRecomendados">
+        <button class="btn" onclick="ponerminutos(30)" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        ">30</button>
+        <button class="btn" onclick="ponerminutos(15)" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        " id="pausarContinuarBtn">15</button>
+        <button class="btn" onclick="ponerminutos(5)" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        ">5</button>
+    </section>
+    <section class="control" id="panelpause">
+        
+        <button class="btn" onclick="pausarContinuarCuentaRegresiva()" style="display: inline-block; margin-right: 5px; background-color: black; color: #ffb30096;      box-shadow: inset 0 0 0 3px #000, 0 0 0 2px #ff9800e6, 3px -3px 30px #ffb30096, -3px 3px 30px #ff980080;
+        " id="pausarContinuarBtn">Pausar</button>
+        
+    </section>
+    
+
+    <script src="cuenta.js"></script>
+</body>
+
+</html>
