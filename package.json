@@ -24,7 +24,7 @@
       "output": "dist"
     },
     "win": {
-      "icon": "./icon/favicon.ico",
+      "icon": "./img/icono.jpg",
       "target": [
         {
           "target": "nsis", 
@@ -35,7 +35,7 @@
       ]
     },
     "linux": {
-      "icon": "./icon/favicon.png",
+      "icon": "./img/icono.jpg",
       "target": [
         "AppImage",
         "deb",
